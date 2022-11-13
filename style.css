@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 5rem;
+}
+header .btn
+{
+    background-color: transparent;
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 30px;
+    padding: .5rem 1.5rem;
+    color: hsl(321, 100%, 78%);
+    box-shadow: 0 0 5px hsl(321, 100%, 78%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.heading-text
+{
+    text-align: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    width: 95%;
+}
+.heading-text p{
+    margin-bottom: 2rem;
+}
+.heading-text h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.main-btn
+{
+    padding: 1.2rem 3.5rem;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-bottom: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.img-box img{
+    max-width: 95%;
+}
+.img-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+}
+.communities
+{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.communities h2
+{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+.communities p{
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    width: 95%;
+}
+.section-imgs img{
+    max-width: 95%;
+}
+.sections-heading
+{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.grow-together
+{
+    background-color: hsl(207, 100%, 98%);
+}
+.waves-top
+{
+    height: 290px;
+    background: url(./images/bg-section-top-desktop-1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.waves-bottom
+{
+    height: 290px;
+    background: url(./images/bg-section-bottom-desktop-1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flowing
+{
+    flex-direction: row-reverse;
+}
+.wave-top
+{
+    height: 290px;
+    background: url(./images/bg-section-top-desktop-2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sections-users
+{
+    background-color: hsl(207, 100%, 98%);
+}
+.sections-flowing{
+    margin: 5rem 0;
+}
+.wave-bottom
+{
+    height: 290px;
+    background: url(./images/bg-section-bottom-desktop-2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.build
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+.build h3{
+    font-size: 2.5rem;
+}
+.footer-wave
+{
+    background: url(./images/bg-footer-top-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 290px;
+}
+footer
+{
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 5rem;
+}
+.footer-contact
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-logo
+{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(142deg) brightness(105%) contrast(102%);
+}
+.footer-icons
+{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+.footer-text
+{
+    color: white;
+}
+.newsletter
+{
+    color: white;
+}
+.newsletter h4{
+    font-size: 2rem;
+    margin: 0;
+}
+.ai-flex-start
+{
+    align-items: flex-start;
+}
+.newsletter input{
+    padding: .7rem;
+    margin-right: 2rem;
+    border-radius: 7px;
+    border: none;
+}
+.newsletter button{
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 7px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.newsletter-input
+{
+    display: flex;
+    align-items: center;
+}
+.headings
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+i:hover
+{
+    color: rgb(108, 198, 228);
+    cursor: pointer;
+    transition: all .2s ease;
+}
+button:hover
+{
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.main-btn:hover{
+   background-color: hsl(322, 72%, 71%);
+   transition: all .2s ease;
+}
+.subscribe:hover
+{
+    background-color: hsl(322, 72%, 71%);
+    transition: all .2s ease;
+}
+.btn:hover{
+    color: rgb(250, 192, 238);
+    transition: all .2s ease;
+}
+p
+{
+    font-size: 1.1rem;
+}
+.check{
+    margin-top: 1rem;
+    color:rgb(242, 129, 129);
+    position: absolute;
+}
+.hidden
+{
+    display: none;
+}
